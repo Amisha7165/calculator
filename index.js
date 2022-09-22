@@ -1,7 +1,7 @@
 const display = document.querySelector('#display');
 const button = document.querySelectorAll('button');
 
-buttons.foreach((item) => {
+buttons.forEach((item) => {
     item.oneclick =() => {
         if(item.id == 'clear'){
             display.innertext ='';
